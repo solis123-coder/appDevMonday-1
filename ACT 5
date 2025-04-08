@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MyInfo {
     // Method to print name
     public static void printName() {
-        System.out.println("My name is Juan Cruz.");
+        System.out.println("My name is Merviluz L. Solis.");
     }
 
     // Method to ask and calculate age
