@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class MyInfo {
+    // Method to print name
+    public static void printName() {
+        System.out.println("My name is Juan Cruz.");
+    }
+
+    // Method to ask and calculate age
+    public static void calculateNextAge() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter your current age: ");
+        int age = scanner.nextInt();
+        
+        int nextYearAge = age + 1;
+        System.out.println("Next year, you will be " + nextYearAge + " years old.");
+        
+        scanner.close();
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        printName();
+        calculateNextAge();
+    }
+}
